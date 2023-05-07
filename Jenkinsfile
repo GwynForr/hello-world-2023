@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/GwynForr/hello-world-2023.git'
+              git branch: 'main', url: 'https://github.com/GwynForr/hello-world-2023.git'
             }
         }
         stage('Code Build') {
